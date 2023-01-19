@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(240, 100, 150, 0.8855917366946778) 68%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-family: "Orbitron", "sans-serif";
+  height: 100vh;
+  letter-spacing: 1px;
+  text-align: center;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-con {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.input-con input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+.input-con button {
+  padding: 8px 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  margin-left: 1rem;
+  border: none;
+  color: white;
+  background-color: rgb(68, 6, 241);
+}
+.input-con button:hover {
+  color: rgb(181, 8, 250);
+  background-color: white;
+  font-weight: 900;
+  transform: scale(1.1);
+}
+.img-con {
+  background-image: url(./assets/bulut.png);
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 1rem auto;
+  border-radius: 15px;
+}
+.description-con {
+  padding-top: 30px;
+}
+.live-con {
+  display: none;
+  padding-top: 25px;
+  font-weight: 700;
+}
+.start-button button {
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 32px;
+  border: 4px solid red;
+  background-color: rgb(23, 194, 224);
+  color: white;
+}
+.start-button button:hover {
+  transform: scale(1.3);
+  color: black;
+  background-color: rgb(245, 66, 12);
+  box-shadow: 3px 3px 10px 1px red;
+}
+.try button {
+  display: none;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 32px;
+  border: 4px solid red;
+  background-color: rgb(23, 194, 224);
+  color: white;
+}
+.try button:hover {
+  transform: scale(1.3);
+  color: black;
+  background-color: rgb(245, 66, 12);
+  box-shadow: 3px 3px 10px 1px red;
+}

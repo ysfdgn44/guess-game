@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Bowlby+One+SC&family=Concert+One&family=Crete+Round:ital@0;1&family=Inconsolata:wght@400;500&family=Orbitron:wght@400;500&family=Prosto+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>GUESS THE NUMBER (1 - 100)</h1></header>
+    <main>
+      <div class="start-button"><button>Start Game</button></div>
+      <div class="input-con">
+        <input type="number" class="input" name="number-guess" />
+        <button>GUESS</button>
+      </div>
+      <div class="img-con"></div>
+      <div class="try"><button>Try Again</button></div>
+      <div class="description-con">
+        <h2 class="result">Write The Number</h2>
+        <p class="live-con">Number of attempts: <span id="live">3</span></p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
